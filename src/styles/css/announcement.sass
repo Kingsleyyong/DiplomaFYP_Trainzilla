@@ -1,0 +1,121 @@
+#listOuter
+    background-repeat: no-repeat
+    background-size: cover
+    min-height: 100vh
+    background-image: url("../Images/listBG.jpg")
+    text-align: center
+    background-position: center center;
+
+#listBG
+    background-color: rgba(226,239,255,0.8)
+    min-height: 100vh
+
+.tabBtn
+    font-size: 1.4em
+    margin: 29px
+    font-weight: bold
+    box-shadow: 2px 2px 2px gray
+    padding: 12px 16px
+    color: white
+
+.tabBtn:hover
+    color: white
+
+.actList
+    background-color: rgba(0,0,102,0.75)
+    
+.inactList
+    background-color: rgba(0,0,102,0.12)
+    text-shadow: 1px 1px 6px gray
+
+.inactList:hover
+    background-color: rgba(0,0,102,0.38)
+
+#announceComponent , #ruleComponent
+    padding: 2% 5% 5% 5%
+    font-weight: bold
+    text-shadow: 0px 0px 6px white
+
+#announcementTable , #announcementTable th , 
+#ruleTable , #ruleTable th
+    border: white 1px solid
+
+#announcementTable th , #ruleTable th
+    background-color: rgba(255,255,255,0.24)
+
+#announcementTableBody tr , #ruleTableBody tr
+    width: 80vw
+    font-weight: normal
+
+#announcementTableBody td , #ruleTableBody td
+    word-wrap: break-word
+    padding: 12px
+
+#announceComponent .aDate
+    width: 12vw
+
+#announceComponent .aTitle
+    width: 24vw
+
+#announceComponent .aDetails
+    width: 42vw
+
+#ruleComponent .rDate
+    width: 8vw
+    margin: auto !important
+
+#ruleComponent .aTitle
+    width: 18vw
+    margin: auto !important
+
+#ruleComponent .aDetails
+    width: 42vw
+    margin: auto !important
+
+
+#listBG .dataTables_wrapper .dataTables_length select
+    font-weight: bold
+    margin-bottom: 12px
+    border-bottom: white 2px solid
+    text-shadow: 0px 0px 6px white
+
+#listBG .dataTables_wrapper .dataTables_filter input 
+    border-color: rgba(255,255,255,0.42)
+    border-bottom: white 2px solid
+    margin-bottom: 12px
+
+#listBG .dataTables_wrapper .dataTables_paginate span 
+    background: rgba(255,255,255,0.42)
+    border-radius: 50px
+
+
+#listBG .dataTables_wrapper .dataTables_paginate .paginate_button:hover , 
+#listBG .dataTables_wrapper .dataTables_paginate .paginate_button a:hover 
+    background: rgba(0,0,102,0.29) !important
+    border-color: rgba(0,0,102,0.29) !important
+    border-radius: 25px
+    color: white !important
+
+
+#listBG .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover
+    background: transparent !important
+    color: gray !important
+
+#listBG .dataTables_wrapper .dataTables_paginate .paginate_button.current
+    background: rgba(0,0,102,0.85) !important
+    border-radius: 50%
+    border-color: #99AAFF !important
+    color: #FFFFFF !important
+
+#announceComponent tr.odd
+    background-color: #E9F3FF
+
+#ruleComponent tr.odd
+    background-color: #EBFFFF
+
+@media (max-width: 600px)
+    #announceComponent .aDetails
+        width: 32vw
+
+    #ruleComponent .aDetails
+        width: 36vw
